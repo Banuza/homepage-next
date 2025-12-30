@@ -1,0 +1,61 @@
+.subscribe {
+  padding: 60px 0;
+  background-color: var(--primaryBg);
+  border-top: 1px solid var(--black);
+  border-bottom: 1px solid var(--black);
+
+  @media (min-width: 960px) {
+    padding: 120px 0;
+  }
+
+  &__header {
+    margin: 0 auto;
+    max-width: 560px;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 24px;
+
+    @media (min-width: 960px) {
+      font-size: 20px;
+      margin-bottom: 40px;
+    }
+  }
+
+  &__heading {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 8px;
+
+    @media (min-width: 960px) {
+      font-size: 36px;
+    }
+  }
+
+  &__form-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 600px;
+    margin: 0 auto;
+
+    @media (min-width: 960px) {
+      flex-direction: row;
+    }
+  }
+
+  &__email {
+    border-radius: 8px;
+    line-height: 44px;
+    background-color: var(--white);
+    padding: 0 16px;
+    box-shadow: 5px 5px 0 0 var(--black);
+    border: 1px solid var(--black);
+    font-size: 14px;
+
+    @media (min-width: 960px) {
+      line-height: 54px;
+      padding: 0 24px;
+      font-size: 16px;
+    }
+  }
+}

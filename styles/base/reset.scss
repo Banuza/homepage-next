@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 60px;
+
+  @media (min-width: 960px) {
+    scroll-padding-top: 80px;
+  }
+}
+
+body {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.65;
+  font-family: var(--font);
+  color: var(--black60);
+  background-color: var(--black5);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: 1.6rem;
+  color: var(--black);
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+input,
+select,
+button,
+textarea {
+  appearance: none;
+  border: none;
+  background: transparent;
+  outline: none;
+  font-family: var(--font);
+  font-size: 1.6rem;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="search"],
+select,
+textarea {
+  display: block;
+  width: 100%;
+}
+
+a,
+button,
+label,
+input[type="submit"],
+input[type="checkbox"],
+input[type="radio"] {
+  cursor: pointer;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input[type="checkbox"] {
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 200px;
+  background-color: var(--white);
+  border: 1px solid var(--black);
+  transition: 0.2s box-shadow;
+
+  &:checked {
+    box-shadow: inset 0px 0px 0 4px var(--black);
+  }
+}

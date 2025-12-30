@@ -1,0 +1,16 @@
+@use "./base/variables.scss";
+@use "./base/fonts.scss";
+@use "./base/reset.scss";
+@use "./base/animations.scss";
+
+@use "./components/header.scss";
+@use "./components/footer.scss";
+@use "./components/width.scss";
+@use "./components/button.scss";
+@use "./components/card.scss";
+@use "./components/home-hero.scss";
+@use "./components/games.scss";
+@use "./components/subscribe.scss";
+@use "./components/from-blog.scss";
+@use "./components/home-team.scss";
+@use "./components/team-card.scss";

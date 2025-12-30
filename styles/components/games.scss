@@ -1,0 +1,35 @@
+.games {
+  padding: 60px 0;
+
+  @media (min-width: 960px) {
+    padding: 80px 0;
+  }
+
+  &__heading {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 24px;
+
+    @media (min-width: 960px) {
+      font-size: 44px;
+      margin-bottom: 32px;
+    }
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
+
+    @media (min-width: 960px) {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 40px;
+    }
+  }
+}
+
+.game-links {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+}
