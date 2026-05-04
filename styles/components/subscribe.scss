@@ -3,6 +3,10 @@
   background-color: var(--primaryBg);
   border-top: 1px solid var(--black);
   border-bottom: 1px solid var(--black);
+  background-image:
+    radial-gradient(rgba(0, 0, 0, 0.05) 1px, transparent 1px),
+    radial-gradient(rgba(0, 0, 0, 0.05) 1px, transparent 1px);
+  background-size: 12px 12px;
 
   @media (min-width: 960px) {
     padding: 120px 0;

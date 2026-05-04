@@ -20,7 +20,7 @@ export default function Button({
   onClick,
   type = "button",
 }: IProps) {
-  const cls = classNames("button", `button--${size}`, {
+  const cls = classNames("button", `button--${size}`, className, {
     "button--disabled": disabled,
   });
 

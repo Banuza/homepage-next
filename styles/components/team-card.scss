@@ -1,11 +1,13 @@
 .team-card {
   display: flex;
   flex-direction: column;
+  position: relative;
+
   &__header {
     display: flex;
-    border-bottom: 1px solid var(--black);
-    gap: 16px;
-    padding: 20px;
+    border-bottom: 1px solid rgba(16, 16, 16, 0.16);
+    gap: 18px;
+    padding: 22px 22px 18px;
     align-items: center;
   }
 
@@ -14,42 +16,67 @@
   }
 
   &__photo {
-    width: 80px;
-    height: 80px;
+    width: 88px;
+    height: 88px;
     border-radius: 50%;
+    border: 3px solid rgba(252, 252, 252, 0.9);
+    object-fit: cover;
   }
 
   &__name {
-    font-size: 18px;
+    font-size: 22px;
   }
 
   &__title {
-    font-size: 14px;
-    font-weight: 400;
-    margin-top: 4px;
-    color: var(--gray);
+    display: inline-flex;
+    margin-top: 8px;
+    padding: 6px 10px;
+    border-radius: 999px;
+    background: rgba(243, 209, 37, 0.24);
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: rgba(16, 16, 16, 0.78);
   }
 
   &__body {
-    padding: 20px;
-    font-size: 14px;
+    padding: 22px;
+    font-size: 15px;
     display: flex;
     flex-direction: column;
     flex: 1;
+    line-height: 1.75;
+    color: rgba(16, 16, 16, 0.82);
+  }
+
+  &__bio {
+    min-height: 0;
+    flex: 1;
+
+    p {
+      margin: 0;
+    }
   }
 
   &__games {
     margin-top: auto;
-    padding-top: 20px;
+    padding-top: 22px;
+    margin-top: 22px;
+    border-top: 1px dashed rgba(16, 16, 16, 0.18);
   }
 
   &__games-heading {
-    font-size: 14px;
-    margin-bottom: 4px;
+    font-size: 12px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: rgba(16, 16, 16, 0.64);
   }
 
   &__games-list {
     font-size: 14px;
-    display: inline-flex;
+    display: block;
+    color: var(--black);
   }
 }

@@ -4,9 +4,16 @@ import Width from "./Width";
 
 export default function HomeAbout() {
   return (
-    <div className="home-team" id="team">
+    <section className="home-team" id="team">
       <Width>
-        <h2 className="home-team__heading">Meet the team</h2>
+        <div className="home-team__intro">
+          <p className="home-team__eyebrow">The people behind Banuza</p>
+          <h2 className="home-team__heading">Meet the team</h2>
+          <p className="home-team__lead">
+            We like playful ideas, sharp systems, and projects that feel a
+            little more alive than the obvious version.
+          </p>
+        </div>
 
         <div className="home-team__grid">
           <TeamCard
@@ -15,13 +22,12 @@ export default function HomeAbout() {
             imageSrc="/images/robby.jpg"
             bio={
               <p>
-                Robby is a full-stack web developer who started making video
-                games purely for fun. What began as a way to learn and
-                experiment quickly grew into a deeper love for building
-                interactive experiences. That curiosity eventually turned into
-                Banuza, a small, indie space for creating games, collaborating
-                with others, and chasing ideas that feel exciting rather than
-                safe.
+                Robby is a full-stack developer who started making games for
+                fun and kept going because interactive work felt more alive
+                than anything else. That mix of curiosity, experimentation,
+                and design obsession eventually turned into Banuza. He likes
+                projects that feel playful, polished, and just a little less
+                predictable than the safe version.
               </p>
             }
             favoriteGames={["Cuphead", "Rocket League", "Super Mario Bros. 3"]}
@@ -33,13 +39,13 @@ export default function HomeAbout() {
             imageSrc="/images/ryan.jpg"
             bio={
               <p>
-                Ryan is a software engineer and Banuza's lead programmer, with a
-                strong focus on backend development and building games in Unity.
-                Inspired by World of Warcraft and Warcraft III from an early
-                age, he's been fascinated by game worlds and how they work ever
-                since. Ryan enjoys experimenting with servers, scripts, and new
-                technologies, blending infrastructure know-how with a love for
-                game mechanics to help shape fun, polished experiences.
+                Ryan is a software engineer and Banuza&apos;s lead programmer,
+                focused on backend systems, Unity development, and the work
+                that makes good ideas actually hold together. Early time with
+                Warcraft III and World of Warcraft shaped how he thinks about
+                game worlds and mechanics. He likes combining infrastructure,
+                scripting, and gameplay problem-solving into experiences that
+                feel sharp, stable, and fun to play.
               </p>
             }
             favoriteGames={["World of Warcraft", "Path of Exile", "Minecraft"]}
@@ -52,6 +58,6 @@ export default function HomeAbout() {
           something fun.
         </p>
       </Width>
-    </div>
+    </section>
   );
 }

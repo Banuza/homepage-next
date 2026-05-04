@@ -17,11 +17,6 @@ export default function Header() {
               </Link>
             </li>
             <li className="header-nav__item">
-              <Link href="/#updates" className="header-nav__anchor">
-                Updates
-              </Link>
-            </li>
-            <li className="header-nav__item">
               <Link href="/#team" className="header-nav__anchor">
                 Team
               </Link>

@@ -41,7 +41,7 @@ export default function HomeGames() {
               {
                 href: "#",
                 icon: <Itch />,
-                title: "Playstation",
+                title: "Itch",
               },
 
               {

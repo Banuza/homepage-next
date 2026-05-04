@@ -21,12 +21,12 @@
 
   &__logo {
     display: block;
-    width: 90px;
+    width: 85px;
     color: var(--white);
     transition: 0.2s color;
 
     @media (min-width: 960px) {
-      width: 110px;
+      width: 100px;
     }
 
     &:hover {
