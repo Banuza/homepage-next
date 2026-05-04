@@ -34,18 +34,18 @@ export default function HomeGames() {
             description="2024"
             gameLinks={[
               {
-                href: "#",
+                href: "https://store.steampowered.com/app/2910810/Super_Hangman/",
                 icon: <Steam />,
                 title: "Steam",
               },
               {
-                href: "#",
+                href: "https://banuza.itch.io/super-hangman",
                 icon: <Itch />,
                 title: "Itch",
               },
 
               {
-                href: "#",
+                href: "https://play.unity.com/en/games/4cb9800d-ee4a-4905-875f-7ef60fb323ba/super-hangman",
                 icon: <Unity />,
                 title: "Unity",
               },
