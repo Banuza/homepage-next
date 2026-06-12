@@ -37,6 +37,14 @@ export default function Footer() {
                 </a>
               </li>
               <li className="footer__item">
+                <a
+                  className="footer__anchor"
+                  href="/math-frenzy-privacy-policy/"
+                >
+                  Math Frenzy Privacy Policy
+                </a>
+              </li>
+              <li className="footer__item">
                 <a className="footer__anchor" href="mailto:hello@banuza.com">
                   Contact
                 </a>
